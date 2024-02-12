@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    background-color: #f8f9fa; /* Bootstrap default background color */
+    color: #343a40; /* Bootstrap default text color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    margin-bottom: 20px; /* Add some spacing between the navbar and content */
+  }
+  
+  /* Container styles */
+  .container {
+    margin-top: 20px; /* Add space at the top of the container */
+  }
+  
+  /* Alert styles */
+  .alert {
+    margin-top: 20px; /* Add space between alerts and content */
+  }
+  
+  /* Footer styles (adjust as needed) */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #a737b1; /* Navbar background color */
+    color: #e36b6b; /* Navbar text color */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive adjustments (adjust as needed) */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      margin-top: 10px; /* Adjust spacing for smaller screens */
+    }
+  
+    .container {
+      margin-top: 10px; /* Adjust spacing for smaller screens */
+    }
+  }
+  
